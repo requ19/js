@@ -1181,6 +1181,395 @@ console.log(Object.keys(obj).length);
 
 /*
 
+ясноооо
+
+*/
+
+
+
+
+// 73
+
+/*
+
+let test = 0;
+
+if (test > 10) {
+    console.log('Hallo');
+} else {
+    console.log('world');
+}
+
+
+let test = 0;
+
+if (test < 10) {
+    console.log('rasen')
+} else {
+    console.log('gun')
+}
+
+
+let test = 0;
+
+if (test >= 10) {
+    console.log('Hallo');
+} else {
+    console.log('world');
+}
+
+let test = 0;
+
+if (test <= 10) {
+    console.log('rasen')
+} else {
+    console.log('gun')
+}
+
+*/
+
+
+
+
+
+// 74
+
+/*
+
+let test = 0;
+
+if (test == 10) {
+    console.log('chi');
+} else {
+    console.log('dori');
+}
+
+*/
+
+
+
+
+// 75
+
+/*
+
+let test = 0
+
+if (test != 10) {
+    console.log('mugen')
+} else {
+    console.log('cukiemi')
+}
+
+*/
+
+
+
+// 76
+
+/*
+
+let test = 10000;
+let test2 = 3789;
+
+if (test > test2) {
+    console.log('mugen')
+} else {
+    console.log('cukiemi')
+}
+
+if (test < test2) {
+    console.log('rayton')
+} else {
+    console.log('makuton')
+}
+  if (test == test2) {
+    console.log('runder')
+  } else {
+    console.log('hiper')
+  }
+
+    if (test != test2) {
+    console.log('runder')
+  } else {
+    console.log('hiper')
+  }
+
+*/
+
+
+
+
+
+// 77
+
+/*
+
+let test = 'abcd';
+let test2 = 'dcba'
+
+if (test == test2) {
+    console.log('moon')
+} else {
+    console.log('sun')
+}
+
+*/
+
+
+
+
+
+
+// 78
+
+/*
+let test1 = '123';
+let test2 = 123;
+// они равны по значению но не по типу
+
+if (test1 == test2) {
+    console.log('rider')
+} else {
+    console.log('mops')
+}
+*/
+
+
+
+
+
+// 79
+
+/*
+
+Не запуская код, определите, что выведется в консоль:
+
+let test1 = '3';
+let test2 = '3';
+		
+if (test1 == test2) {
+	console.log('+++'); вот этоооо
+} else {
+	console.log('---');
+}
+
+
+let test1 = '3';
+let test2 = '3';
+		
+if (test1 === test2) {
+	console.log('+++'); этооооо
+} else {
+	console.log('---');
+}
+
+let test1 = 3;
+let test2 = '3';
+		
+if (test1 == test2) {
+	console.log('+++');
+} else {
+	console.log('---'); этоооо
+}
+
+let test1 = 3;
+let test2 = '3';
+		
+if (test1 === test2) {
+	console.log('+++');
+} else {
+	console.log('---'); э т о
+}
+
+let test1 = 3;
+let test2 = 3;
+		
+if (test1 === test2) {
+	console.log('+++'); эт о
+} else {
+	console.log('---');
+}
+*/
+
+
+
+
+
+
+// 80
+
+/*
+
+Не запуская код, определите, что выведется в консоль:
+
+let test1 = '3';
+let test2 = '3';
+		
+if (test1 != test2) {
+	console.log('+++');
+} else {
+	console.log('---');  этооо
+}
+
+
+let test1 = '3';
+let test2 = '3';
+		
+if (test1 !== test2) {
+	console.log('+++');
+} else {
+	console.log('---'); этооо
+}
+
+
+let test1 = 3;
+let test2 = '3';
+		
+if (test1 != test2) {
+	console.log('+++');
+} else {
+	console.log('---'); этооо
+}
+
+let test1 = 3;
+let test2 = '3';
+		
+if (test1 !== test2) {
+	console.log('+++'); этооо
+} else {
+	console.log('---');
+}
+
+
+let test1 = 3;
+let test2 = 2;
+		
+if (test1 !== test2) {
+	console.log('+++');  этоооо
+} else {
+	console.log('---');
+}
+*/
+
+
+
+
+
+// 81
+
+/*
+let num = 3;
+
+if (num > 0 && num <= 20) {
+    console.log('+++')
+} else {
+    console.log('----')  
+}
+
+if (num >= 10 && num <= 20) {
+    console.log('+++')
+} else {
+    console.log('---')
+}
+
+let num1 = 2;
+let num2 = 3;
+
+if (num1 <=  1 && num2 >= 3) {
+    console.log('+++')
+} else {
+    console.log('---')
+}
+*/
+
+
+
+
+
+
+// 82
+
+/*
+
+Не запуская код определите, что выведется в консоль:
+
+let num1 = -10;
+let num2 = -10;
+
+if (num1 >= 0 || num2 >= 0) {
+	console.log('+++');
+} else {
+	console.log('---'); ittttt
+}
+
+let num1 = 0;
+let num2 = 0;
+
+if (num1 >= 0 || num2 >= 0) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+
+let num1 = 0;
+let num2 = 5;
+
+if (num1 >= 0 || num2 >= 0) {
+	console.log('+++');  itttt
+} else {
+	console.log('---');
+}
+
+
+let num1 = 5;
+let num2 = 5;
+
+if (num1 >= 0 || num2 >= 0) {
+	console.log('+++'); itttt
+} else {
+	console.log('---');
+}
+
+
+
+let num1 = -5;
+let num2 = 15;
+
+if (num1 >= 0 || num2 >= 0) {
+	console.log('+++'); iiiiiiittttt
+} else {
+	console.log('---');
+}
+
+
+let num = 1;
+
+if (num == 0 || num == 1) {
+	console.log('+++'); it
+} else {
+	console.log('---');
+}
+
+
+let num = 2;
+
+if (num == 0 || num == 1) {
+	console.log('+++');
+} else {
+	console.log('---');  etoooo
+}
+
+
+let num = 2;
+
+if (num == 0 || num == 1 || num == 2) {
+	console.log('+++');  etooo
+} else {
+	console.log('---');
+}
+
 
 
 */
@@ -1188,7 +1577,457 @@ console.log(Object.keys(obj).length);
 
 
 
-// 64
+
+// 83
+
+/*
+
+
+let num = 3;
+
+if (num > 0 && num < 5 || num > 10 && num < 20) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+
+if (num == 0 // здесь сравнивается значение num и 0 ||// значение ИЛИ  num > 1 // num больше 1 (факт) &&//И num < 5 // num меньше 5) {
+	console.log('+++'); itt
+} else {
+	console.log('---');
+}
+
+
+*/
+
+
+
+
+
+
+// 84
+
+/*
+
+let num1 = 3;
+let num2 = 5;
+
+if ( num1 > 0 && (num2 == 3 || num2 == 5) ) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+let num = 3;
+		
+if (num > 5//1 && num < 10 //2|| num == 20//3) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+let num = 3;
+		
+if (num > 5 //1 || num > 0 //2 && num < 3 //3) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+let num = 3;
+		
+if (num == 9 //3 || num > 10 && //1 num < 20 || num > 20 && //2 num < 30) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+
+*/
+
+
+
+
+
+// 85
+
+/*
+
+if ( !(num1 >= 0 || num2 <= 10)) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+
+
+*/
+
+
+
+
+
+
+// 86
+
+/*
+
+let test = true;
+
+if (test == true) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+
+let test = true;
+
+if (test == false) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+Проверьте, что переменная test равна false.
+
+*/
+
+
+
+
+
+
+// 87
+
+/*
+let test = -0;
+
+if (Boolean(test) == true) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+let test = null;
+if (Boolean(test) == true) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+
+let test = 1;
+		
+if (test == true) {
+	console.log('+++');  it
+} else {
+	console.log('---');
+}
+
+let test = 0;
+		
+if (test == true) {
+	console.log('+++');
+} else {
+	console.log('---'); itt
+}
+
+
+let test = 1;
+		
+if (test == false) {
+	console.log('+++'); 
+} else {
+	console.log('---'); ittt
+}
+
+
+let test = 1;
+		
+if (test != true) {
+	console.log('+++');
+} else {
+	console.log('---'); itttt
+}
+
+let test = '';
+		
+if (test == false) {
+	console.log('+++');  ittt
+} else {
+	console.log('---');
+}
+
+let test;
+		
+if (test == true) {
+	console.log('+++');
+} else {
+	console.log('---'); ittt
+}
+
+
+let test = 3 * 'a';
+		
+if (test == true) {
+	console.log('+++');
+} else {
+	console.log('---'); iittt
+}
+
+
+*/
+
+
+
+
+
+
+// 88
+
+/*
+
+Перепишите следующий код с использованием сокращенной формы:
+
+let test = true;
+
+if (test === true) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+
+let test = true;
+
+if (test) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+*/
+
+
+
+
+
+// 89
+
+/*
+
+Перепишите следующий код с использованием сокращенной формы:
+
+let test = true;
+
+if (test == false) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+let test = true;
+
+if (!test) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+
+let test = true;
+
+if (!test) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+let test = true;
+
+if (test) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+
+*/
+
+
+
+
+// 90
+
+/*
+
+let test = 3;
+
+if (test) {
+	console.log('+++'); itt
+} else {
+	console.log('---');
+}
+
+
+let test = 'abc';
+
+if (test) {
+	console.log('+++');  ittt
+} else {
+	console.log('---');
+}
+
+
+
+let test = '';
+
+if (test) {
+	console.log('+++');
+} else {
+	console.log('---'); ittt
+}
+
+let test = 3 * 'abc';
+
+if (test) {
+	console.log('+++');
+} else {
+	console.log('---'); itt
+}
+
+let test = null;
+
+if (test) {
+	console.log('+++');
+} else {
+	console.log('---'); itt
+}
+
+let test = false;
+
+if (test) {
+	console.log('+++');
+} else {
+	console.log('---'); itt
+}
+
+let test;
+
+if (test) {
+	console.log('+++');
+} else {
+	console.log('---'); ittt
+}
+
+let test = 0;
+
+if (test) {
+	console.log('+++');
+} else {
+	console.log('---');  itt
+}
+
+
+let test = '0';
+
+if (test) {
+	console.log('+++'); iitttt
+} else {
+	console.log('---');
+}
+
+
+let test = -1;
+
+if (test) {
+	console.log('+++'); iittt
+} else {
+	console.log('---');
+}
+*/
+
+
+
+
+// 91
+
+/*
+let test1 = true;
+let test2 = true;
+
+if (test1 && test2) {
+	console.log('+++'); itt
+} else {
+	console.log('---');
+}
+
+
+let test1 = true;
+let test2 = true;
+
+if (test1 && !test2) {
+	console.log('+++');
+} else {
+	console.log('---'); it
+}
+
+let test1 = true;
+let test2 = true;
+
+if (test1 && !test2) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+
+let test1 = true;
+let test2 = true;
+
+if (test && test2) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+let test1 = true;
+let test2 = true;
+let test3 = true;
+
+if (test1 && test2 && test3) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+let test1 = true;
+let test2 = true;
+let test3 = true;
+
+if (test1 || test2 && test3) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+let test1 = true;
+let test2 = true;
+let test3 = true;
+
+if (test1 || !test2 && !test3) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+*/
+
+
+
+
+// 92
 
 /*
 
@@ -1198,16 +2037,7 @@ console.log(Object.keys(obj).length);
 
 
 
-// 64
-
-/*
-
-*/
-
-
-
-
-// 64
+// 93
 
 /*
 
@@ -1218,192 +2048,7 @@ console.log(Object.keys(obj).length);
 
 
 
-// 64
-
-/*
-
-*/
-
-
-
-
-
-// 64
-
-/*
-
-*/
-
-
-
-
-
-
-// 64
-
-/*
-
-*/
-
-
-
-
-
-// 64
-
-/*
-
-*/
-
-
-
-
-
-
-// 64
-
-/*
-
-*/
-
-
-
-
-
-// 64
-
-/*
-
-*/
-
-
-
-
-
-
-// 64
-
-/*
-
-*/
-
-
-
-
-
-// 64
-
-/*
-
-*/
-
-
-
-
-
-
-// 64
-
-/*
-
-*/
-
-
-
-
-
-// 64
-
-/*
-
-*/
-
-
-
-
-
-
-// 64
-
-/*
-
-*/
-
-
-
-
-
-
-// 64
-
-/*
-
-*/
-
-
-
-
-
-
-// 64
-
-/*
-
-*/
-
-
-
-
-
-// 64
-
-/*
-
-*/
-
-
-
-
-// 64
-
-/*
-
-*/
-
-
-
-
-// 64
-
-/*
-
-*/
-
-
-
-
-// 64
-
-/*
-
-*/
-
-
-
-
-
-// 64
-
-/*
-
-*/
-
-
-
-
-
-
-// 64
+// 94
 
 /*
 
