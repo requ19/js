@@ -2030,7 +2030,14 @@ if (test1 || !test2 && !test3) {
 // 92
 
 /*
+Проверьте, что переменная test равна 10, то пусть на экран выведется 'yes'. В противном случае пусть ничего не произойдет.
 
+
+let test = 10;
+
+if (test == 10) {
+    alert('yes');
+}
 */
 
 
@@ -2040,13 +2047,437 @@ if (test1 || !test2 && !test3) {
 // 93
 
 /*
+let test = 3;
+
+if (test > 0) 
+	console.log('+++');
+ else 
+	console.log('---');
+
+
+if (test > 0) 
+	console.log('+++');
+
 
 */
 
 
 
 
+// 94
 
+/*
+
+let day = 3;
+
+if (day >= 1 && day <= 11) {
+    console.log('first');
+} else if (day >= 11 && day <= 21) {
+    console.log('second');
+} else if (day >= 21 && day <= 31) {
+    console.log('3');
+} else {
+    console.log('error');
+}
+
+*/
+
+// 95
+
+/*
+
+let num = 77;
+
+if (num >= 10 && num <= 99) {
+    console.log('сумма цифр двухзначна')
+} else {
+    console.log('сумма цифр однозначна')
+}
+
+*/
+
+
+
+// 96
+
+/*
+let lang = 'ru';
+
+switch (lang) {
+    case 'ru':
+        console.log('rus')
+    break;
+    case 'en':
+        console.log('eng')
+    break;
+    case 'ne':
+        console.log('nem')
+    break;
+    default:
+        console.log('i dont know')
+    break;    
+}
+*/
+
+
+// 97
+
+/*
+
+let num = 1;
+let res;
+
+if (num == 1 || num == 2) {
+	res = 'a';
+}
+
+if (num == 3) {
+	res = 'b';
+}
+
+console.log(res);
+
+*/
+
+
+// 98
+
+/*
+
+Перепишите следующий код через тернарный оператор:
+
+let num = 1;
+let res;
+
+if (num >= 0) {
+	res = '1';
+} else {
+	res = '2';
+}
+
+console.log(res);
+
+let num = 1;
+let res = num >= 0 ? '1': '2';
+
+console.log(res);
+
+
+let age = 17;
+let adult;
+
+if (age >= 18) {
+	adult = true;
+} else {
+	adult = false;
+}
+
+console.log(adult);
+
+let age = 17;
+let adult = age >= 14 ? true: false;
+
+console.log(adult);
+
+*/
+
+
+
+// 99
+
+/*
+
+let a = 2 * (3 - 1);
+let b = 6 - 2;
+
+console.log(a == b);  true
+
+let a = 5 * (7 - 4);
+let b = 1 + 2 + 7;
+
+console.log(a > b); true
+
+let a = 2 ** 4;
+let b = 4 ** 2;
+
+console.log(a != b); false
+
+*/
+
+
+
+// 100
+
+/*
+
+Спросите у пользователя, есть ли ему уже 18 лет. Если есть -
+выведите на экран алерт с текстом для взрослых, а если нет,
+выведите сообщение о том, что доступ пользователю запрещен.
+
+let q = confirm('Вам есть 18 лет?')
+
+if (q) {
+	alert('как 21 будет приходи')
+} else {
+	alert('Пошел вон маленький извр')
+}
+
+*/
+
+
+
+// 101
+
+/*
+
+let age = 17;
+let adult
+
+if (age <= 18) {
+	adult = true;
+} else {
+	adult = false;
+}
+
+console.log(adult);
+
+*/
+
+
+
+// 102
+
+/*
+
+let age = 17;
+let adult;
+
+if (age >= 18) {
+	adult = true;
+} else {
+	adult = false;
+}
+
+console.log(adult);
+
+
+
+let age = 17;
+let res;
+
+if (age >= 18) {
+	if (age <= 23) {
+		res = 'от 18 до 23';
+	} else {
+		res = 'больше 23';
+	}
+} else {
+	res = 'меньше 18';
+}
+
+console.log(res);
+
+
+let age = 19;
+let res;
+
+if (age >= 18) {
+	let res;
+	
+	if (age <= 23) {
+		res = 'от 18 до 23';
+	} else {
+		res = 'больше 23';
+	}
+} else {
+	res = 'меньше 18';
+}
+
+console.log(res);
+
+
+let age = 19;
+let res;
+
+if (age >= 18) {
+	if (age <= 23) {
+		res = 'от 18 до 23';
+	} else {
+		res = 'больше 23';
+	}
+} else {
+	res = 'меньше 18';
+}
+
+console.log(res);
+
+*/
+
+// 103
+
+/*
+
+let min = 59;
+
+if (min >= 0 && min <= 14) {
+	console.log('1 четверть');
+}
+
+if (min >= 15 && min <= 29) {
+	console.log('2 четверть');
+}
+
+if (min >= 30 && min <= 44) {
+	console.log('3 четверть');
+}
+
+if (min >= 45 && min <= 59) {
+	console.log('4 четверть');
+}
+
+
+Решите аналогичную задачу, только определите в какую треть часа попадает указанное количество минут.
+
+let min = 59;
+
+if (min >= 0 && min <= 19) {
+	console.log('1 четверть');
+}
+
+if (min >= 20 && min <= 39) {
+	console.log('2 четверть');
+}
+
+if (min >= 40 && min <= 60) {
+	console.log('3 четверть');
+}
+
+*/
+
+
+// 104
+
+/*
+
+В переменной arr содержится некоторый массив с числами. Напишите условие, которое проверит, что в массиве 3 элемента.
+Если это так, выведите на экран сумму элементов массива.
+
+
+let arr = [1, 2, 3, 4, 5, 6]
+
+if (arr.length > 3) {
+	console.log(arr[0] + arr[1] + arr[2])
+} else {
+	console.log('sorry')
+}
+
+
+*/
+
+// 105
+
+/*
+
+let str = 'popstar';
+
+if (str[0] == 'a') {
+	console.log('vottt')
+} else {
+	console.log('not')
+}
+
+
+let str = 'popstar';
+
+if (str[6] == 'x') {
+	console.log('vottt')
+} else {
+	console.log('not')
+}
+
+let str = 'popstar';
+
+if (str[0] == 'a' || str[0] == 'b') {
+	console.log('vottt')
+} else {
+	console.log('not')
+}
+
+*/
+
+
+
+// 106
+
+/*
+
+let int = 3829423;
+
+if (String(int)[6] == 0) {
+	console.log('yesssssss')
+} else {
+	console.log('nnnooooot')
+}
+
+
+let num = 72893;
+
+if () {
+	
+}
+
+*/
+
+
+// 107
+
+/*
+
+*/
+
+
+
+// 108
+
+/*
+
+*/
+
+
+
+// 109
+
+/*
+
+*/
+
+
+
+// 94
+
+/*
+
+*/
+
+
+// 94
+
+/*
+
+*/
+
+
+// 94
+
+/*
+
+*/
+
+// 94
+
+/*
+
+*/
 
 // 94
 
